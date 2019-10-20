@@ -3,8 +3,6 @@
 using Toybox.Application;
 
 class Main extends Application.AppBase {
-	hidden var antDevice;
-
 	function initialize() {
 		AppBase.initialize();
 	}
