@@ -1,0 +1,5 @@
+<resources>
+    <string id="AppName">Battery</string>
+    <string id="batt_label">Battery</string>
+    <string id="batt_units">%</string>
+</resources>
