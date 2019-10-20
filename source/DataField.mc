@@ -22,6 +22,6 @@ class DataField extends WatchUi.SimpleDataField {
 	function compute(info) {
 		var stats = System.getSystemStats();
 		batt_field.setData(stats.battery);
-		return stats.battery.format("%0.1f") + "%";
+		return stats.battery.format("%0.1f");
 	}
 }
