@@ -1,0 +1,7 @@
+#!/bin/sh
+
+SDK_PATH=$HOME/ciq/bin
+OUTPUT=batt.iq
+KEY=$HOME/ciq/key/developer_key.der
+
+$SDK_PATH/monkeyc -e -f monkey.jungle -o $OUTPUT -y $KEY
