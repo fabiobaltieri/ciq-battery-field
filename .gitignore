@@ -1,0 +1,5 @@
+*.prg
+*.prg.debug.xml
+*.iq
+*_contributions.json
+*.swp
