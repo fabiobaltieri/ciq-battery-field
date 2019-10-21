@@ -8,6 +8,7 @@ using Toybox.FitContributor;
 class DataField extends WatchUi.SimpleDataField {
 	const BATT_FIELD_ID = 0;
 	hidden var batt_field;
+	hidden var old_batt;
 
 	function initialize() {
 		SimpleDataField.initialize();
@@ -22,7 +23,11 @@ class DataField extends WatchUi.SimpleDataField {
 
 	function compute(info) {
 		var stats = System.getSystemStats();
-		batt_field.setData(Math.round(stats.battery));
+		var new_batt = Math.round(stats.battery).toNumber();
+		if (new_batt != old_batt) {
+			batt_field.setData(new_batt);
+			old_batt = new_batt;
+		}
 		return stats.battery.format("%0.1f");
 	}
 }
