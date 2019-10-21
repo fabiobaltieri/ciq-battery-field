@@ -2,6 +2,7 @@
 
 using Toybox.WatchUi;
 using Toybox.System;
+using Toybox.Math;
 using Toybox.FitContributor;
 
 class DataField extends WatchUi.SimpleDataField {
@@ -15,13 +16,13 @@ class DataField extends WatchUi.SimpleDataField {
 		batt_field = createField(
 				"battery",
 				BATT_FIELD_ID,
-				FitContributor.DATA_TYPE_FLOAT,
+				FitContributor.DATA_TYPE_UINT8,
 				{:mesgType=>FitContributor.MESG_TYPE_RECORD, :units=>"%"});
 	}
 
 	function compute(info) {
 		var stats = System.getSystemStats();
-		batt_field.setData(stats.battery);
+		batt_field.setData(Math.round(stats.battery));
 		return stats.battery.format("%0.1f");
 	}
 }
