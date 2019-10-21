@@ -4,11 +4,11 @@
 			id="0"
 			displayInChart="true"
 			sortOrder="0"
-			precision="1"
+			precision="0"
 			chartTitle="@Strings.batt_label"
 			dataLabel="@Strings.batt_label"
 			unitLabel="@Strings.batt_units"
-			fillColor="#FF0000"
+			fillColor="#ffe100"
 			/>
 	</fitContributions>
 </resources>
