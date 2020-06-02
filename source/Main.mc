@@ -7,15 +7,7 @@ class Main extends Application.AppBase {
 		AppBase.initialize();
 	}
 
-	function onStart(state) {
-		return false;
-	}
-
 	function getInitialView() {
 		return [new DataField()];
-	}
-
-	function onStop(state) {
-		return false;
 	}
 }
