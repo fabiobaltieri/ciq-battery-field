@@ -1,5 +1,5 @@
 SDK_PATH = $(HOME)/ciq
-KEY = $(HOME)/.Garmin/key/developer_key.der
+KEY = developer_key.der
 
 NAME = batt
 APP_ID = c0797db5-6570-4db1-b7fc-474b1c51cebf
