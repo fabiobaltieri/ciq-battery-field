@@ -18,10 +18,13 @@
 			<iq:product id="descentmk1"/>
 			<iq:product id="descentmk2"/>
 			<iq:product id="descentmk2s"/>
+			<iq:product id="descentmk343mm"/>
+			<iq:product id="descentmk351mm"/>
 			<iq:product id="edge1030"/>
 			<iq:product id="edge1030bontrager"/>
 			<iq:product id="edge1030plus"/>
 			<iq:product id="edge1040"/>
+			<iq:product id="edge1050"/>
 			<iq:product id="edge130"/>
 			<iq:product id="edge130plus"/>
 			<iq:product id="edge520plus"/>
@@ -35,6 +38,7 @@
 			<iq:product id="edgeexplore"/>
 			<iq:product id="edgeexplore2"/>
 			<iq:product id="enduro"/>
+			<iq:product id="enduro3"/>
 			<iq:product id="epix"/>
 			<iq:product id="epix2"/>
 			<iq:product id="epix2pro42mm"/>
@@ -55,11 +59,20 @@
 			<iq:product id="fenix6xpro"/>
 			<iq:product id="fenix7"/>
 			<iq:product id="fenix7pro"/>
+			<iq:product id="fenix7pronowifi"/>
 			<iq:product id="fenix7s"/>
 			<iq:product id="fenix7spro"/>
 			<iq:product id="fenix7x"/>
 			<iq:product id="fenix7xpro"/>
+			<iq:product id="fenix7xpronowifi"/>
+			<iq:product id="fenix843mm"/>
+			<iq:product id="fenix847mm"/>
+			<iq:product id="fenix8solar47mm"/>
+			<iq:product id="fenix8solar51mm"/>
 			<iq:product id="fenixchronos"/>
+			<iq:product id="fenixe"/>
+			<iq:product id="fr165"/>
+			<iq:product id="fr165m"/>
 			<iq:product id="fr230"/>
 			<iq:product id="fr235"/>
 			<iq:product id="fr245"/>
@@ -110,6 +123,8 @@
 			<iq:product id="venu2"/>
 			<iq:product id="venu2plus"/>
 			<iq:product id="venu2s"/>
+			<iq:product id="venu3"/>
+			<iq:product id="venu3s"/>
 			<iq:product id="venud"/>
 			<iq:product id="venusq"/>
 			<iq:product id="venusq2"/>
@@ -122,6 +137,7 @@
 			<iq:product id="vivoactive3mlte"/>
 			<iq:product id="vivoactive4"/>
 			<iq:product id="vivoactive4s"/>
+			<iq:product id="vivoactive5"/>
 			<iq:product id="vivoactive_hr"/>
 		</iq:products>
 		<iq:languages/>
