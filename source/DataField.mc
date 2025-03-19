@@ -17,13 +17,13 @@ class DataField extends WatchUi.SimpleDataField {
 		batt_field = createField(
 				"battery",
 				BATT_FIELD_ID,
-				FitContributor.DATA_TYPE_UINT8,
+				FitContributor.DATA_TYPE_FLOAT,
 				{:mesgType=>FitContributor.MESG_TYPE_RECORD, :units=>"%"});
 	}
 
 	function compute(info) {
 		var stats = System.getSystemStats();
-		var new_batt = Math.round(stats.battery).toNumber();
+		var new_batt = stats.battery;
 		if (new_batt != old_batt) {
 			batt_field.setData(new_batt);
 			old_batt = new_batt;
